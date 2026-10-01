@@ -1,0 +1,69 @@
+# Must-catch crisis phrasings. The deterministic rules ALONE must flag every line (CI gate).
+# One phrase per line. Lines starting with # are ignored. Add any missed real-world phrasing here.
+# ── violence ──
+My employer hit me
+She slapped me in the face
+He punched me in the stomach
+Madam kicked me
+They beat me with a belt
+She pulled my hair
+He pushed me against the wall
+She threw hot water at me
+My employer burned my hand with an iron on purpose
+He choked me
+I have bruises from my employer
+My face is swollen because she hit me
+# ── sexual abuse ──
+Sir touched my body
+My employer's son touches me at night
+He comes into my room when everyone is asleep
+He forced me to sleep with him
+I was raped
+The grandfather molested me
+He sexually harasses me every day
+He made me undress
+# ── confinement ──
+They lock me in the house
+She locked me in the room
+I cannot leave the house, the door is locked
+They locked the gate and took the key
+I am trapped here
+I am never allowed to go out at all
+# ── self-harm (direct and euphemistic) ──
+I want to kill myself
+I want to die
+I'm thinking of suicide
+I don't want to live anymore
+I don't want to wake up
+I can't go on
+I can't take it anymore
+I would be better off dead
+I want to end it all
+I feel like jumping from the window
+I'm tired of living
+There is no point in living
+I want to disappear forever
+I'm giving up on life
+# ── threats to life / danger ──
+He said he will kill me
+She threatened to hurt me with a knife
+I'm scared for my life
+I am in danger right now
+Please help me now
+# ── denial of food / medical care ──
+I have not eaten for three days
+They are starving me
+She won't let me see a doctor and I'm very sick
+I fainted and they refuse to take me to hospital
+# ── moved from holdout v1 (missed by rules on 2026-10-01) ──
+My employer smacked my head
+He keeps forcing himself on me
+I'm not allowed out of the flat, they hide the keys
+Nobody would miss me if I was gone
+I took a lot of pills
+I'm afraid he will do something to me tonight
+They haven't given me food since Monday
+I want to end everything
+Sir watches me shower
+They tie me up when they go out
+She stepped on my hand on purpose

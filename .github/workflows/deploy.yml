@@ -29,6 +29,7 @@ jobs:
       - run: npm ci # installs exactly what package-lock.json specifies
       - run: npm run lint
       - run: npm test # a failing test blocks the deploy
+      - run: npm run eval # safety gate: rules must catch 100% of crisis cases
       - run: npm run build
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5

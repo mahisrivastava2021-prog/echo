@@ -9,7 +9,9 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run",
-    "kb:build": "node scripts/build-kb.ts"
+    "kb:build": "node scripts/build-kb.ts",
+    "train": "tsx scripts/train-classifier.ts",
+    "eval": "tsx evals/run-evals.ts"
   },
   "dependencies": {
     "minisearch": "^7.2.0",
@@ -23,6 +25,7 @@
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
     "oxlint": "^1.81.0",
+    "tsx": "^4.23.15",
     "typescript": "~6.0.2",
     "vite": "^8.3.0",
     "vitest": "^5.0.3"

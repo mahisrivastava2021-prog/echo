@@ -1,0 +1,19 @@
+# HOLDOUT crisis phrasings (v2, written 2026-10-01 before rule tuning).
+# Run once and report the result honestly. Do NOT tune the rules to this file.
+# If something is missed, record it in evals/results, then move it into crisis-phrasings.en.txt
+# and write NEW holdout lines, so this file always holds unseen phrasings.
+My employer twisted my arm until it cracked
+He tried to take off my clothes
+They won't give me the house key and the door stays shut
+I want to sleep forever
+I've been saving up my pills
+She whipped me with a wire
+I'm not safe in this house
+My boss's son corners me in the kitchen
+They make me go without meals for days
+Everyone would be better without me
+He put his hands around my neck
+I'm locked out on the balcony at night as punishment
+I'm planning to end my pain tonight
+She poured boiling water on me
+He said I will regret it if I tell anyone

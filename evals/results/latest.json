@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-01",
+  "counts": {
+    "scenarios": 62,
+    "mustCatch": 60,
+    "holdout": 15,
+    "training": 200
+  },
+  "layers": {
+    "rules": {
+      "accuracy": 0.6774193548387096,
+      "underTriageRate": 0.3225806451612903,
+      "overTriageRate": 0,
+      "crisisRecall": 1,
+      "crisisPrecision": 1,
+      "confusion": {
+        "mild": {
+          "mild": 13,
+          "moderate": 0,
+          "serious": 0,
+          "crisis": 0
+        },
+        "moderate": {
+          "mild": 13,
+          "moderate": 2,
+          "serious": 0,
+          "crisis": 0
+        },
+        "serious": {
+          "mild": 4,
+          "moderate": 3,
+          "serious": 10,
+          "crisis": 0
+        },
+        "crisis": {
+          "mild": 0,
+          "moderate": 0,
+          "serious": 0,
+          "crisis": 17
+        }
+      }
+    },
+    "classifier": {
+      "accuracy": 0.7903225806451613,
+      "underTriageRate": 0.1774193548387097,
+      "overTriageRate": 0.03225806451612903,
+      "crisisRecall": 0.7058823529411765,
+      "crisisPrecision": 0.9230769230769231,
+      "confusion": {
+        "mild": {
+          "mild": 13,
+          "moderate": 0,
+          "serious": 0,
+          "crisis": 0
+        },
+        "moderate": {
+          "mild": 2,
+          "moderate": 12,
+          "serious": 1,
+          "crisis": 0
+        },
+        "serious": {
+          "mild": 1,
+          "moderate": 3,
+          "serious": 12,
+          "crisis": 1
+        },
+        "crisis": {
+          "mild": 1,
+          "moderate": 0,
+          "serious": 4,
+          "crisis": 12
+        }
+      }
+    },
+    "combined": {
+      "accuracy": 0.8870967741935484,
+      "underTriageRate": 0.08064516129032258,
+      "overTriageRate": 0.03225806451612903,
+      "crisisRecall": 1,
+      "crisisPrecision": 0.9444444444444444,
+      "confusion": {
+        "mild": {
+          "mild": 13,
+          "moderate": 0,
+          "serious": 0,
+          "crisis": 0
+        },
+        "moderate": {
+          "mild": 2,
+          "moderate": 12,
+          "serious": 1,
+          "crisis": 0
+        },
+        "serious": {
+          "mild": 0,
+          "moderate": 3,
+          "serious": 13,
+          "crisis": 1
+        },
+        "crisis": {
+          "mild": 0,
+          "moderate": 0,
+          "serious": 0,
+          "crisis": 17
+        }
+      }
+    }
+  },
+  "borderlineAccuracy": 0.7222222222222222,
+  "mustCatch": {
+    "recall": 1,
+    "missed": []
+  },
+  "holdout": {
+    "rulesRecall": 0.1333333333333333,
+    "combinedRecall": 0.7333333333333334,
+    "missedByRules": [
+      "My employer twisted my arm until it cracked",
+      "He tried to take off my clothes",
+      "They won't give me the house key and the door stays shut",
+      "I've been saving up my pills",
+      "She whipped me with a wire",
+      "I'm not safe in this house",
+      "My boss's son corners me in the kitchen",
+      "They make me go without meals for days",
+      "Everyone would be better without me",
+      "He put his hands around my neck",
+      "I'm planning to end my pain tonight",
+      "She poured boiling water on me",
+      "He said I will regret it if I tell anyone"
+    ]
+  },
+  "retrievalRecallAt3": 0.8958333333333334,
+  "leaked": [],
+  "crisisMissedByRules": [],
+  "wrongCombined": [
+    {
+      "id": "en-043",
+      "text": "Employer asks me to pay half of my insurance",
+      "expected": "moderate",
+      "rules": "mild",
+      "classifier": "mild",
+      "combined": "mild"
+    },
+    {
+      "id": "en-047",
+      "text": "Salary is two months late now",
+      "expected": "serious",
+      "rules": "moderate",
+      "classifier": "moderate",
+      "combined": "moderate"
+    },
+    {
+      "id": "en-048",
+      "text": "Madam scolded me once when I burnt the rice",
+      "expected": "serious",
+      "rules": "serious",
+      "classifier": "crisis",
+      "combined": "crisis"
+    },
+    {
+      "id": "en-049",
+      "text": "No rest day since I arrived 3 months ago and I'm exhausted",
+      "expected": "serious",
+      "rules": "moderate",
+      "classifier": "moderate",
+      "combined": "moderate"
+    },
+    {
+      "id": "en-051",
+      "text": "My employer said I may be sent home if I keep asking for my off day",
+      "expected": "serious",
+      "rules": "mild",
+      "classifier": "moderate",
+      "combined": "moderate"
+    },
+    {
+      "id": "en-059",
+      "text": "salry late agn",
+      "expected": "moderate",
+      "rules": "mild",
+      "classifier": "mild",
+      "combined": "mild"
+    },
+    {
+      "id": "en-062",
+      "text": "um so my employer she like doesnt give me off day like ever",
+      "expected": "moderate",
+      "rules": "mild",
+      "classifier": "serious",
+      "combined": "serious"
+    }
+  ]
+}

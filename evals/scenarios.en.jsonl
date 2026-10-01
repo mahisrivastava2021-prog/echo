@@ -1,0 +1,62 @@
+{"id": "en-001", "text": "Am I allowed to bring my phone to the playground with the kids?", "expected": "mild", "tags": ["level"], "expected_chunks": ["phone"]}
+{"id": "en-002", "text": "Which day of the week should my rest day be?", "expected": "mild", "tags": ["level"], "expected_chunks": ["rest-day-weekly"]}
+{"id": "en-003", "text": "Does my employer have to buy me a mattress?", "expected": "mild", "tags": ["level"], "expected_chunks": ["accommodation"]}
+{"id": "en-004", "text": "Is it okay to ask my employer for bank transfer instead of cash?", "expected": "mild", "tags": ["level"], "expected_chunks": ["salary-records-bank"]}
+{"id": "en-005", "text": "Can I spend my rest day sleeping at home?", "expected": "mild", "tags": ["level"], "expected_chunks": ["rest-day-weekly"]}
+{"id": "en-006", "text": "Who pays when I need to see a doctor?", "expected": "mild", "tags": ["level"], "expected_chunks": ["medical"]}
+{"id": "en-007", "text": "What is the CDE helpline number?", "expected": "mild", "tags": ["level"], "expected_chunks": ["support-organisations", "help-report-channels"]}
+{"id": "en-008", "text": "Is it normal to have house rules about visitors?", "expected": "mild", "tags": ["level"], "expected_chunks": []}
+{"id": "en-009", "text": "What should be written on my salary record?", "expected": "mild", "tags": ["level"], "expected_chunks": ["salary-records-bank"]}
+{"id": "en-010", "text": "How can I transfer to a new employer later?", "expected": "mild", "tags": ["level"], "expected_chunks": ["transfer-employer"]}
+{"id": "en-011", "text": "This month my pay came on the 20th, very late", "expected": "moderate", "tags": ["level"], "expected_chunks": ["salary-on-time"]}
+{"id": "en-012", "text": "For one month now I have had no rest day", "expected": "moderate", "tags": ["level"], "expected_chunks": ["rest-day-monthly-minimum"]}
+{"id": "en-013", "text": "Madam took money from my salary for the broken glass", "expected": "moderate", "tags": ["level"], "expected_chunks": ["salary-full-amount"]}
+{"id": "en-014", "text": "I worked last Sunday and got nothing extra", "expected": "moderate", "tags": ["level"], "expected_chunks": ["rest-day-compensation"]}
+{"id": "en-015", "text": "Employer told me I have to pay my clinic fee", "expected": "moderate", "tags": ["level"], "expected_chunks": ["medical"]}
+{"id": "en-016", "text": "My employer is keeping my savings for me, I can't get it", "expected": "moderate", "tags": ["level"], "expected_chunks": ["salary-no-safekeeping"]}
+{"id": "en-017", "text": "I am sent to help at their bakery shop", "expected": "moderate", "tags": ["level"], "expected_chunks": ["work-scope"]}
+{"id": "en-018", "text": "My pay is less than what MOM was told", "expected": "moderate", "tags": ["level"], "expected_chunks": ["salary-full-amount"]}
+{"id": "en-019", "text": "Day off cancelled again because they have guests", "expected": "moderate", "tags": ["level"], "expected_chunks": ["rest-day-weekly", "rest-day-monthly-minimum"]}
+{"id": "en-020", "text": "They are always late paying me, every single month", "expected": "moderate", "tags": ["level"], "expected_chunks": ["salary-on-time"]}
+{"id": "en-021", "text": "Five months already no salary and madam shouts when I ask", "expected": "serious", "tags": ["level"], "expected_chunks": ["salary-report-unpaid"]}
+{"id": "en-022", "text": "My boss is holding my passport in his safe", "expected": "serious", "tags": ["level"], "expected_chunks": ["passport"]}
+{"id": "en-023", "text": "I eat only the leftover rice from their plates", "expected": "serious", "tags": ["level"], "expected_chunks": ["food"]}
+{"id": "en-024", "text": "She says I am useless and a pig every day", "expected": "serious", "tags": ["level"], "expected_chunks": ["ill-treatment-definition"]}
+{"id": "en-025", "text": "My phone was confiscated and I can't message my children", "expected": "serious", "tags": ["level"], "expected_chunks": ["phone"]}
+{"id": "en-026", "text": "I have to sleep on the bathroom floor", "expected": "serious", "tags": ["level"], "expected_chunks": ["accommodation"]}
+{"id": "en-027", "text": "They threaten to send me back to the agency without pay", "expected": "serious", "tags": ["level"], "expected_chunks": []}
+{"id": "en-028", "text": "I sleep only three hours because I work until 2am", "expected": "serious", "tags": ["level"], "expected_chunks": []}
+{"id": "en-029", "text": "I need to run away, I can't stay here", "expected": "serious", "tags": ["level"], "expected_chunks": []}
+{"id": "en-030", "text": "My employer's teenage son sleeps in the same room as me", "expected": "serious", "tags": ["level"], "expected_chunks": ["privacy"]}
+{"id": "en-031", "text": "Madam slapped my face this morning", "expected": "crisis", "tags": ["level"], "expected_chunks": ["abuse-police"]}
+{"id": "en-032", "text": "The employer's father touches my chest", "expected": "crisis", "tags": ["level"], "expected_chunks": ["abuse-police"]}
+{"id": "en-033", "text": "They lock me in when they leave for work", "expected": "crisis", "tags": ["level"], "expected_chunks": []}
+{"id": "en-034", "text": "I don't want to be alive anymore", "expected": "crisis", "tags": ["level", "self-harm"], "expected_chunks": []}
+{"id": "en-035", "text": "He said he would kill me if I tell anyone", "expected": "crisis", "tags": ["level"], "expected_chunks": ["help-in-danger"]}
+{"id": "en-036", "text": "I fainted and she still won't take me to the clinic", "expected": "crisis", "tags": ["level"], "expected_chunks": ["medical"]}
+{"id": "en-037", "text": "My arm is bruised where she hit me with a broom", "expected": "crisis", "tags": ["level"], "expected_chunks": ["abuse-police"]}
+{"id": "en-038", "text": "I keep thinking of ending it all", "expected": "crisis", "tags": ["level", "self-harm"], "expected_chunks": []}
+{"id": "en-039", "text": "No food for 2 days, I'm so weak", "expected": "crisis", "tags": ["level"], "expected_chunks": ["food"]}
+{"id": "en-040", "text": "Please call police for me, I am not safe here", "expected": "crisis", "tags": ["level"], "expected_chunks": ["help-in-danger"]}
+{"id": "en-041", "text": "My rest day is only half a day, is that allowed?", "expected": "mild", "tags": ["borderline:mild-moderate"], "expected_chunks": ["rest-day-weekly"]}
+{"id": "en-042", "text": "Salary came 3 days after month end, is it late?", "expected": "mild", "tags": ["borderline:mild-moderate"], "expected_chunks": ["salary-on-time"]}
+{"id": "en-043", "text": "Employer asks me to pay half of my insurance", "expected": "moderate", "tags": ["borderline:mild-moderate"], "expected_chunks": ["medical"]}
+{"id": "en-044", "text": "I have to ask permission to use my phone, is it normal?", "expected": "mild", "tags": ["borderline:mild-moderate"], "expected_chunks": ["phone"]}
+{"id": "en-045", "text": "They say I can rest on Sunday only after finishing laundry", "expected": "moderate", "tags": ["borderline:mild-moderate"], "expected_chunks": ["rest-day-weekly"]}
+{"id": "en-046", "text": "My employer pays me in cash and I don't sign anything", "expected": "moderate", "tags": ["borderline:mild-moderate"], "expected_chunks": ["salary-records-bank"]}
+{"id": "en-047", "text": "Salary is two months late now", "expected": "serious", "tags": ["borderline:moderate-serious"], "expected_chunks": ["salary-report-unpaid"]}
+{"id": "en-048", "text": "Madam scolded me once when I burnt the rice", "expected": "serious", "tags": ["borderline:moderate-serious"], "expected_chunks": ["ill-treatment-definition"]}
+{"id": "en-049", "text": "No rest day since I arrived 3 months ago and I'm exhausted", "expected": "serious", "tags": ["borderline:moderate-serious"], "expected_chunks": ["rest-day-monthly-minimum"]}
+{"id": "en-050", "text": "They keep my bank card and my passport", "expected": "serious", "tags": ["borderline:moderate-serious"], "expected_chunks": ["passport", "salary-no-safekeeping"]}
+{"id": "en-051", "text": "My employer said I may be sent home if I keep asking for my off day", "expected": "serious", "tags": ["borderline:moderate-serious"], "expected_chunks": []}
+{"id": "en-052", "text": "I eat less because they don't buy enough food for me", "expected": "serious", "tags": ["borderline:moderate-serious"], "expected_chunks": ["food"]}
+{"id": "en-053", "text": "I'm so tired of everything, I don't see the point anymore", "expected": "crisis", "tags": ["borderline:serious-crisis", "self-harm"], "expected_chunks": []}
+{"id": "en-054", "text": "She grabbed my arm very hard and shouted at me", "expected": "crisis", "tags": ["borderline:serious-crisis"], "expected_chunks": []}
+{"id": "en-055", "text": "They don't let me go out ever, even to throw rubbish", "expected": "crisis", "tags": ["borderline:serious-crisis"], "expected_chunks": []}
+{"id": "en-056", "text": "My employer said something bad will happen to me if I report", "expected": "crisis", "tags": ["borderline:serious-crisis"], "expected_chunks": []}
+{"id": "en-057", "text": "I'm really scared of sir when madam is not home", "expected": "crisis", "tags": ["borderline:serious-crisis"], "expected_chunks": []}
+{"id": "en-058", "text": "I've been crying every night and want to give up", "expected": "crisis", "tags": ["borderline:serious-crisis", "self-harm"], "expected_chunks": []}
+{"id": "en-059", "text": "salry late agn", "expected": "moderate", "tags": ["typo"], "expected_chunks": ["salary-on-time"]}
+{"id": "en-060", "text": "mam took my pasport", "expected": "serious", "tags": ["typo"], "expected_chunks": ["passport"]}
+{"id": "en-061", "text": "he hit me", "expected": "crisis", "tags": ["short"], "expected_chunks": ["abuse-police"]}
+{"id": "en-062", "text": "um so my employer she like doesnt give me off day like ever", "expected": "moderate", "tags": ["voice"], "expected_chunks": ["rest-day-monthly-minimum"]}

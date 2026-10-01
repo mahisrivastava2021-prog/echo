@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import { classify, ERR_UP_THRESHOLD, type NbModel } from './classifier'
 import { maxLevel } from './levels'
 import { detectNotReady } from './notReady'
 import { route, type TriageInputs } from './router'
@@ -130,5 +131,25 @@ describe('not-ready detection', () => {
   it('a not-ready flag from the model is respected', () => {
     const d = route(inputs('salary late', { model: modelSays({ not_ready: true }), modelAttempted: true }))
     expect(d.notReady).toBe(true)
+  })
+})
+
+describe('classifier', () => {
+  const tiny: NbModel = {
+    labels: ['mild', 'moderate', 'serious', 'crisis'],
+    logPriors: [Math.log(0.25), Math.log(0.25), Math.log(0.25), Math.log(0.25)],
+    // "late" points to moderate, "salary" is slightly more serious than moderate.
+    logLikelihoods: { late: [-5, -1, -1.3, -5], salary: [-3, -1, -1.2, -5] },
+  }
+
+  it('gives no vote when it knows too few words', () => {
+    expect(classify('hello', tiny)).toBeNull()
+  })
+
+  it('errs toward the more serious level when it is close', () => {
+    const vote = classify('salary late', tiny)!
+    expect(vote.probabilities.moderate).toBeGreaterThan(vote.probabilities.serious)
+    expect(vote.probabilities.serious).toBeGreaterThanOrEqual(ERR_UP_THRESHOLD)
+    expect(vote.level).toBe('serious')
   })
 })
