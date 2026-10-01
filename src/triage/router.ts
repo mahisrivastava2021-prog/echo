@@ -25,6 +25,8 @@ export interface TriageDecision {
   level: Level
   /** Which layer(s) produced the final level. Shown in a "how Echo decided" view. */
   decidedBy: DecidedBy[]
+  /** Every layer's individual vote (null = no vote), so the UI can show how the level was reached. */
+  votes: Record<DecidedBy, Level | null>
   signals: string[]
   citations: string[]
   notReady: boolean
@@ -60,6 +62,7 @@ export function route(input: TriageInputs): TriageDecision {
   return {
     level,
     decidedBy: decidedBy.length ? decidedBy : ['rules'], // nothing matched → default mild
+    votes: Object.fromEntries(votes) as Record<DecidedBy, Level | null>,
     signals: rules.signals,
     citations,
     notReady: input.notReadyDetected || (model?.not_ready ?? false),

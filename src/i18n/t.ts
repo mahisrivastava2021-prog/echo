@@ -15,3 +15,8 @@ export function translate(lang: Lang, key: MessageKey): string {
   // Fall back to English so a missing translation never shows an empty button.
   return MESSAGES[lang][key] ?? MESSAGES.en[key]
 }
+
+/** For keys built at runtime (e.g. `signal.${id}`): checks the key exists before using it. */
+export function isMessageKey(key: string): key is MessageKey {
+  return key in en
+}

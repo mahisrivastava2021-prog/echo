@@ -11,6 +11,10 @@
   --danger-text: #ffffff;
   --warn-bg: #fff4d6;
   --warn-text: #6b4a00;
+  /* Severity colours (each passes WCAG AA contrast with white text). */
+  --level-mild: #4f6475;
+  --level-moderate: #8a5a00;
+  --level-serious: #b4470b;
 
   --radius: 14px;
   --gap: 16px;
@@ -38,6 +42,9 @@
     --danger-text: #1a0605;
     --warn-bg: #3a2f10;
     --warn-text: #f5d98b;
+    --level-mild: #5d7487;
+    --level-moderate: #9a6500;
+    --level-serious: #c2520f;
   }
 }
 

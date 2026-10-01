@@ -1,0 +1,165 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left-width: 5px;
+  border-radius: var(--radius);
+}
+
+/* Left edge colour per level (always paired with the text badge, never colour alone). */
+.mild {
+  border-left-color: var(--level-mild);
+}
+.moderate {
+  border-left-color: var(--level-moderate);
+}
+.serious {
+  border-left-color: var(--level-serious);
+}
+.crisis {
+  border-left-color: var(--danger);
+}
+
+.badge {
+  align-self: flex-start;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+.badge_mild {
+  background: var(--level-mild);
+}
+.badge_moderate {
+  background: var(--level-moderate);
+}
+.badge_serious {
+  background: var(--level-serious);
+}
+.badge_crisis {
+  background: var(--danger);
+  color: var(--danger-text); /* white fails contrast on the lighter dark-mode red */
+}
+
+.reply {
+  margin: 0;
+}
+
+.why {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.heading {
+  margin: 4px 0 6px;
+  font-size: 0.95rem;
+}
+
+.sources,
+.contacts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.source {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+}
+
+.source summary {
+  font-weight: 600;
+  cursor: pointer;
+  min-height: 28px;
+}
+
+.source p {
+  margin: 8px 0 0;
+}
+
+.source blockquote {
+  margin: 8px 0 0;
+  padding-left: 10px;
+  border-left: 3px solid var(--brand);
+  font-style: italic;
+}
+
+.quoteLabel {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  overflow-wrap: anywhere;
+}
+
+.steps {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.crisisButton {
+  min-height: var(--tap);
+  border: none;
+  border-radius: var(--radius);
+  background: var(--danger);
+  color: var(--danger-text);
+  font-weight: 700;
+}
+
+.journal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.journal button {
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-muted);
+}
+
+.how {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.how summary {
+  cursor: pointer;
+}
+
+.how ul {
+  margin: 6px 0;
+  padding-left: 18px;
+}
+
+.how p {
+  margin: 4px 0 0;
+}
+
+.disclaimer {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
