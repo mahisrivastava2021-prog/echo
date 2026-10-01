@@ -1,0 +1,38 @@
+{
+  "app.name": "Echo",
+  "app.tagline": "Know your rights. Get help safely.",
+
+  "demo.banner": "Demo version · Information only, not legal advice",
+
+  "exit.label": "Exit",
+  "exit.aria": "Quick exit: switch to a different screen",
+
+  "sos.label": "SOS",
+  "sos.aria": "Open emergency contacts",
+
+  "home.greeting": "Hi, I'm Echo.",
+  "home.intro": "You can tell me what is happening at work, in your own words. I'll explain your rights under Singapore's rules and help you find support. What you share stays on this phone.",
+  "home.comingSoon": "Chat is being built. For now, you can explore the emergency contacts and the quick exit button.",
+  "home.privacyNote": "Echo doesn't use accounts or tracking. Tap Exit at any time to hide this app instantly.",
+
+  "emergency.title": "Get help now",
+  "emergency.intro": "If you are in danger, call the Police first. You are not in trouble for asking for help.",
+  "emergency.call": "Call",
+  "emergency.back": "Back",
+  "emergency.source": "Source",
+  "emergency.checked": "checked",
+  "emergency.unverified": "Not yet verified. Please check this number before relying on it.",
+
+  "contact.police.desc": "If you are in danger or someone is hurting you.",
+  "contact.ambulance.desc": "If you or someone else is badly hurt or very sick.",
+  "contact.cde.desc": "Help with problems at work: salary, rest days, how you are treated.",
+  "contact.home.desc": "Support and advice from a charity for migrant workers. Call or WhatsApp.",
+  "contact.mom.desc": "Speak to a Ministry of Manpower officer if you are in distress.",
+  "contact.sos.desc": "Someone to talk to if you feel hopeless or are thinking of ending your life.",
+
+  "hours.24h": "24 hours",
+  "hours.momOffice": "Mon–Fri, 8:30am–5:30pm",
+  "hours.notStated": "Hours not stated on website",
+
+  "decoy.title": "Calculator"
+}

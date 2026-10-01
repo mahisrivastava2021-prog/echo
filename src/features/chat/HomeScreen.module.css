@@ -1,0 +1,22 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.greeting {
+  margin: 0 0 4px;
+  font-size: 1.6rem;
+}
+
+.note {
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px dashed var(--border);
+}
+
+.privacy {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}

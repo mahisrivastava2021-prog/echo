@@ -1,0 +1,69 @@
+/* Design tokens: every component uses these variables instead of raw colours. */
+:root {
+  --bg: #f7f6f2;
+  --surface: #ffffff;
+  --text: #1f2328;
+  --text-muted: #5b6168;
+  --border: #e3e1da;
+  --brand: #1d6f6a; /* calm teal */
+  --brand-text: #ffffff;
+  --danger: #b42318;
+  --danger-text: #ffffff;
+  --warn-bg: #fff4d6;
+  --warn-text: #6b4a00;
+
+  --radius: 14px;
+  --gap: 16px;
+  --tap: 48px; /* minimum touch target size (accessibility guideline) */
+  --max-width: 480px;
+
+  /* System fonts only: loading Google Fonts would leak a request to a third party. */
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121416;
+    --surface: #1b1e21;
+    --text: #e8eaed;
+    --text-muted: #a3a9b0;
+    --border: #2c3035;
+    --brand: #4fb3aa;
+    --brand-text: #0b1513;
+    --danger: #f0605a;
+    --danger-text: #1a0605;
+    --warn-bg: #3a2f10;
+    --warn-text: #f5d98b;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--bg);
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: var(--brand);
+}
+
+/* Visible focus ring for keyboard users. */
+:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+}

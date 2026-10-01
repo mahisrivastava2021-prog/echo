@@ -1,0 +1,55 @@
+/* Deliberately generic look: should resemble a stock calculator app, not Echo. */
+.calc {
+  min-height: 100dvh;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 16px;
+  background: #1c1c1e;
+  color: #fff;
+}
+
+.display {
+  text-align: right;
+  font-size: clamp(48px, 16vw, 72px);
+  font-weight: 300;
+  padding: 0 8px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.key {
+  aspect-ratio: 1;
+  border: none;
+  border-radius: 50%;
+  font-size: 28px;
+  background: #3a3a3c;
+  color: #fff;
+}
+
+.op {
+  background: #ff9f0a;
+}
+
+/* "=" spans two rows at the right edge, "0" spans three columns. */
+.equals {
+  grid-column: 4;
+  grid-row: 4 / span 2;
+  aspect-ratio: auto;
+  border-radius: 40px;
+}
+
+.zero {
+  grid-column: span 3;
+  aspect-ratio: auto;
+  border-radius: 40px;
+}

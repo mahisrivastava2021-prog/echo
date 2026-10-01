@@ -1,0 +1,10 @@
+.exit {
+  min-height: var(--tap);
+  min-width: var(--tap);
+  padding: 0 18px;
+  border: 2px solid var(--text);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 700;
+}
